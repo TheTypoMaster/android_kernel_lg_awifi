@@ -293,7 +293,7 @@ sdioh_disable_func_intr(sdioh_info_t *sd)
 }
 #endif /* defined(OOB_INTR_ONLY) && defined(HW_OOB) */
 
-/* Configure callback to client when we recieve client interrupt */
+/* Configure callback to client when we receive client interrupt */
 extern SDIOH_API_RC
 sdioh_interrupt_register(sdioh_info_t *sd, sdioh_cb_fn_t fn, void *argh)
 {

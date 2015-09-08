@@ -2180,7 +2180,7 @@ void tdlsUpdateCapInfo(tSirMacCapabilityInfo *capabilityInfo,
 }
 
 /*
- * update Peer info from the link request frame recieved from Peer..
+ * update Peer info from the link request frame received from Peer..
  * in list of STA participating in TDLS link setup
  */
 void limTdlsUpdateLinkReqPeerInfo(tpAniSirGlobal pMac, 
@@ -2233,7 +2233,7 @@ void limTdlsUpdateLinkReqPeerInfo(tpAniSirGlobal pMac,
 }
 
 /*
- * update peer Info recieved with TDLS setup RSP 
+ * update peer Info received with TDLS setup RSP 
  */
 void limTdlsUpdateLinkRspPeerInfo(tpAniSirGlobal pMac, 
                                    tLimTdlsLinkSetupPeer *setupPeer, 
@@ -3612,7 +3612,7 @@ static tSirRetStatus limProcessTdlsSetupRspFrame(tpAniSirGlobal pMac,
     tx_timer_deactivate(&(setupPeer)->gLimTdlsLinkSetupRspTimeoutTimer) ;
 
     /*
-     * TDLS Setup RSP is recieved with Failure, Delete this STA entry
+     * TDLS Setup RSP is received with Failure, Delete this STA entry
      * don't respond with TDLS CNF frame.
      */
     if(TDLS_SETUP_STATUS_SUCCESS != tdlsSetupRsp.Status.status)
@@ -4047,7 +4047,7 @@ static tSirRetStatus limProcessTdlsTeardownFrame(tpAniSirGlobal pMac,
 }
 
 /*
- * Common processing of TDLS action frames recieved 
+ * Common processing of TDLS action frames received 
  */
 void limProcessTdlsFrame(tpAniSirGlobal pMac, tANI_U32 *pBd)
 {

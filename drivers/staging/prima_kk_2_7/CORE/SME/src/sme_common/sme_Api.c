@@ -1691,7 +1691,7 @@ eHalStatus sme_ProcessMsg(tHalHandle hHal, vos_msg_t* pMsg)
 #ifdef FEATURE_WLAN_TDLS
           /*
            * command rescived from PE, SME tdls msg processor shall be called
-           * to process commands recieved from PE
+           * to process commands received from PE
            */
           case eWNI_SME_TDLS_SEND_MGMT_RSP:    
           case eWNI_SME_TDLS_ADD_STA_RSP:    

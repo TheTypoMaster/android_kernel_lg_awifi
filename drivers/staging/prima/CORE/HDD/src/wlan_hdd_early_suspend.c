@@ -1599,7 +1599,7 @@ VOS_STATUS hdd_wlan_reset_initialization(void)
 
 
 /*
- * Based on the ioctl command recieved by HDD, put WLAN driver
+ * Based on the ioctl command received by HDD, put WLAN driver
  * into the quiet mode. This is the same as the early suspend
  * notification that driver used to listen
  */

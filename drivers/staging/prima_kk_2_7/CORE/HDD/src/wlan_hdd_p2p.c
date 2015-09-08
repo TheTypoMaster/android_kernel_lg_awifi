@@ -631,7 +631,7 @@ int wlan_hdd_action( struct wiphy *wiphy, struct net_device *dev,
         {
             if (subType == SIR_MAC_MGMT_PROBE_RSP)
             {
-                /* Drop Probe response recieved from supplicant, as for GO and 
+                /* Drop Probe response received from supplicant, as for GO and 
                    SAP PE itself sends probe response
                    */ 
                 goto err_rem_channel;

@@ -651,7 +651,7 @@ void limSendSmeMgmtFrameInd(
 
     /*
      *  Work around to address LIM sending wrong channel to HDD for p2p action
-     *  frames(In case of auto GO) recieved on 5GHz channel.
+     *  frames(In case of auto GO) received on 5GHz channel.
      *  As RXP has only 4bits to store the channel, we need some mechanism to
      *  to distinguish between 2.4Ghz/5GHz channel. if gLimRemainOnChannelTImer
      *  is not running and if we get a frame then pass the Go session

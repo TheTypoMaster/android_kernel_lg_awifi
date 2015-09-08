@@ -312,7 +312,7 @@ static int bnx2x_set_settings(struct net_device *dev, struct ethtool_cmd *cmd)
 
 	speed = ethtool_cmd_speed(cmd);
 
-	/* If recieved a request for an unknown duplex, assume full*/
+	/* If received a request for an unknown duplex, assume full*/
 	if (cmd->duplex == DUPLEX_UNKNOWN)
 		cmd->duplex = DUPLEX_FULL;
 

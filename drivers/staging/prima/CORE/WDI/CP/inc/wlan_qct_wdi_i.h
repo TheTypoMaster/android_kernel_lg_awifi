@@ -144,7 +144,7 @@ typedef enum
     waiting for the response */
   WDI_BUSY_ST,  
 
-  /* Transition happens when 'SSR' shutdown request is recieved.*/
+  /* Transition happens when 'SSR' shutdown request is received.*/
   WDI_SHUTDOWN_ST,
 
   WDI_MAX_ST

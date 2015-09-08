@@ -909,7 +909,7 @@ static eHalStatus tdlsSaveTdlsPeerInfo(tpAniSirGlobal pMac,
 
 #endif
 /*
- * TDLS Message processor, will be called after TDLS message recieved from
+ * TDLS Message processor, will be called after TDLS message received from
  * PE
  */
 eHalStatus tdlsMsgProcessor(tpAniSirGlobal pMac,  v_U16_t msgType,
@@ -1024,7 +1024,7 @@ eHalStatus tdlsMsgProcessor(tpAniSirGlobal pMac,  v_U16_t msgType,
                 tANI_U8 i = 0 ;
   
                 VOS_TRACE(VOS_MODULE_ID_SME, VOS_TRACE_LEVEL_INFO, 
-                ("DIS START RSP/IND recieved sta count = %d"), disStaCount) ;
+                ("DIS START RSP/IND received sta count = %d"), disStaCount) ;
                 for( ; i < disStaCount ; i++)
                 {
                     tSirTdlsPeerInfo *peerInfo = &disRsp->tdlsDisPeerInfo[i] ;

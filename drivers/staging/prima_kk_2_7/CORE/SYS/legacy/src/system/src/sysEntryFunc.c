@@ -176,7 +176,7 @@ sysBbtProcessMessageCore(tpAniSirGlobal pMac, tpSirMsgQ pMsg, tANI_U32 type,
 
        /*
         * Peek into payload and extract ethtype.
-        * In TDLS we can recieve TDLS frames with MAC HEADER (802.11) and also
+        * In TDLS we can receive TDLS frames with MAC HEADER (802.11) and also
         * without MAC Header (Particularly TDLS action frames on direct link.
         */
        mpduHdr = (v_U8_t *)WDA_GET_RX_MAC_HEADER(pBd) ;

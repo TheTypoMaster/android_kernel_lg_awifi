@@ -671,7 +671,7 @@ static bool efx_flush_wake(struct efx_nic *efx)
 }
 
 /* Flush all the transmit queues, and continue flushing receive queues until
- * they're all flushed. Wait for the DRAIN events to be recieved so that there
+ * they're all flushed. Wait for the DRAIN events to be received so that there
  * are no more RX and TX events left on any channel. */
 int efx_nic_flush_queues(struct efx_nic *efx)
 {

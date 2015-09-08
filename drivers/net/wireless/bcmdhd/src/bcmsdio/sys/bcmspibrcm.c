@@ -224,7 +224,7 @@ sdioh_detach(osl_t *osh, sdioh_info_t *sd)
 	return SDIOH_API_RC_SUCCESS;
 }
 
-/* Configure callback to client when we recieve client interrupt */
+/* Configure callback to client when we receive client interrupt */
 extern SDIOH_API_RC
 sdioh_interrupt_register(sdioh_info_t *sd, sdioh_cb_fn_t fn, void *argh)
 {

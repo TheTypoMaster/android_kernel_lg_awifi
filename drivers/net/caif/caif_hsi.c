@@ -1111,7 +1111,7 @@ int cfhsi_probe(struct platform_device *pdev)
 		cfhsi->inactivity_timeout = NEXT_TIMER_MAX_DELTA;
 	}
 
-	/* Initialize recieve vaiables. */
+	/* Initialize receive vaiables. */
 	cfhsi->rx_ptr = cfhsi->rx_buf;
 	cfhsi->rx_len = CFHSI_DESC_SZ;
 

@@ -4714,7 +4714,7 @@ v_BOOL_t hdd_isScanAllowed( hdd_context_t *pHddCtx )
 /*
  * FUNCTION: wlan_hdd_cfg80211_scan
  * this scan respond to scan trigger and update cfg80211 scan database
- * later, scan dump command can be used to recieve scan results
+ * later, scan dump command can be used to receive scan results
  */
 int wlan_hdd_cfg80211_scan( struct wiphy *wiphy,
 #if (LINUX_VERSION_CODE < KERNEL_VERSION(3,6,0))

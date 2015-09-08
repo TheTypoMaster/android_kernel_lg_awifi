@@ -263,7 +263,7 @@ static void smux_read_done(void *rcv_dev, const void *meta_data)
 	const struct smux_meta_read  *read_meta_info = meta_data;
 
 	if (!dev || !read_meta_info) {
-		DBG1("%s:invalid read_done callback recieved", __func__);
+		DBG1("%s:invalid read_done callback received", __func__);
 		return;
 	}
 
@@ -318,7 +318,7 @@ static void smux_write_done(void *dev, const void *meta_data)
 	unsigned long flags;
 
 	if (!dev || !write_meta_info) {
-		DBG1("%s: ERR:invalid WRITE_DONE callback recieved", __func__);
+		DBG1("%s: ERR:invalid WRITE_DONE callback received", __func__);
 		return;
 	}
 
@@ -419,7 +419,7 @@ void rmnet_smux_notify(void *priv, int event_type, const void *metadata)
 
 		if (!dev || !read_meta_info) {
 			DBG1("%s: ERR:invalid read failed callback"
-			     " recieved", __func__);
+			     " received", __func__);
 			return;
 		}
 
@@ -453,7 +453,7 @@ void rmnet_smux_notify(void *priv, int event_type, const void *metadata)
 
 		if (!dev || !write_meta_info) {
 			DBG1("%s: ERR:invalid WRITE_DONE"
-			     "callback recieved", __func__);
+			     "callback received", __func__);
 			return;
 		}
 

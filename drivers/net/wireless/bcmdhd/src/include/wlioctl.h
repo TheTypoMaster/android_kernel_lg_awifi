@@ -1359,13 +1359,13 @@ enum {
 enum {
 	WL_OTA_SYNC_IDLE = 0,	/* Idle state */
 	WL_OTA_SYNC_ACTIVE = 1,	/* Waiting for Sync */
-	WL_OTA_SYNC_FAIL = 2	/* Sync pkt not recieved */
+	WL_OTA_SYNC_FAIL = 2	/* Sync pkt not received */
 };
 
 /* Various error states dut can get stuck during test */
 enum {
 	WL_OTA_SKIP_TEST_CAL_FAIL = 1,		/* Phy calibration failed */
-	WL_OTA_SKIP_TEST_SYNCH_FAIL = 2,		/* Sync Packet not recieved */
+	WL_OTA_SKIP_TEST_SYNCH_FAIL = 2,		/* Sync Packet not received */
 	WL_OTA_SKIP_TEST_FILE_DWNLD_FAIL = 3,	/* Cmd flow file download failed */
 	WL_OTA_SKIP_TEST_NO_TEST_FOUND = 4,	/* No test found in Flow file */
 	WL_OTA_SKIP_TEST_WL_NOT_UP = 5,		/* WL UP failed */

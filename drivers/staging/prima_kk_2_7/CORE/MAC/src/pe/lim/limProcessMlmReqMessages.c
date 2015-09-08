@@ -2108,7 +2108,7 @@ static void limProcessMlmOemDataReq(tpAniSirGlobal pMac, tANI_U32 *pMsgBuf)
  *
  *LOGIC:
  * Check for suspend state. 
- * If success, proceed with setting link state to recieve the 
+ * If success, proceed with setting link state to receive the 
  * probe response/beacon from intended AP.
  * Switch to the APs channel.
  * On an error case, send the MLM_JOIN_CNF with error status.

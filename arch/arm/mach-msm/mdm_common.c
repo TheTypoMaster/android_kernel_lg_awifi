@@ -633,7 +633,7 @@ static long mdm_modem_ioctl(struct file *filp, unsigned int cmd,
 			put_user(0, (unsigned long __user *) arg);
 		break;
 	case IMAGE_UPGRADE:
-		pr_debug("%s Image upgrade ioctl recieved\n", __func__);
+		pr_debug("%s Image upgrade ioctl received\n", __func__);
 		if (mdm_drv->pdata->image_upgrade_supported &&
 				mdm_ops->image_upgrade_cb) {
 			list_for_each_entry(l_mdev, &mdm_devices, link) {

@@ -4808,7 +4808,7 @@ void limProcessRegdDefdSmeReqAfterNOAStart(tpAniSirGlobal pMac)
 
 #ifdef FEATURE_WLAN_TDLS_INTERNAL
 /*
- * Process Discovery request recieved from SME and transmit to AP.
+ * Process Discovery request received from SME and transmit to AP.
  */
 static tSirRetStatus limProcessSmeDisStartReq(tpAniSirGlobal pMac, 
                                                            tANI_U32 *pMsgBuf)
@@ -4913,7 +4913,7 @@ lim_tdls_dis_start_error:
    return eSIR_FAILURE;
 }
 /*
- * Process link start request recieved from SME and transmit to AP.
+ * Process link start request received from SME and transmit to AP.
  */
 eHalStatus limProcessSmeLinkStartReq(tpAniSirGlobal pMac, tANI_U32 *pMsgBuf)
 {
@@ -5020,7 +5020,7 @@ lim_tdls_link_start_error:
 }
 
 /*
- * Process link teardown request recieved from SME and transmit to AP.
+ * Process link teardown request received from SME and transmit to AP.
  */
 eHalStatus limProcessSmeTeardownReq(tpAniSirGlobal pMac, tANI_U32 *pMsgBuf)
 {

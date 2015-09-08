@@ -1294,7 +1294,7 @@ static void bam_mux_tx_notify(struct sps_event_notify *notify)
 		queue_work(bam_mux_tx_workqueue, &pkt->work);
 		break;
 	default:
-		pr_err("%s: recieved unexpected event id %d\n", __func__,
+		pr_err("%s: received unexpected event id %d\n", __func__,
 			notify->event_id);
 	}
 }
@@ -1340,7 +1340,7 @@ static void bam_mux_rx_notify(struct sps_event_notify *notify)
 		}
 		break;
 	default:
-		pr_err("%s: recieved unexpected event id %d\n", __func__,
+		pr_err("%s: received unexpected event id %d\n", __func__,
 			notify->event_id);
 	}
 }

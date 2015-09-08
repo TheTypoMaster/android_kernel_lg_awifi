@@ -4756,7 +4756,7 @@ WDA_processSetLinkStateStatus WDA_IsHandleSetLinkStateReq(
       default:
          if(pWDA->wdaState != WDA_READY_STATE)
          {
-            /*If WDA_SET_LINK_STATE is recieved with any other link state apart 
+            /*If WDA_SET_LINK_STATE is received with any other link state apart 
              *from eSIR_LINK_PREASSOC_STATE and eSIR_LINK_BTAMP_PREASSOC_STATE when 
              *pWDA->wdaState is in WDA_PRE_ASSOC_STATE(This can happen only in 
              *error cases) so reset the WDA state to WDA_READY_STATE to avoid 

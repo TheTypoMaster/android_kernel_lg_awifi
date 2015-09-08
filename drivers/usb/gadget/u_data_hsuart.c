@@ -567,7 +567,7 @@ static void ghsuart_notify_event(void *priv, int event_type,
 		}
 		break;
 	default:
-		pr_err("%s:wrong event recieved\n", __func__);
+		pr_err("%s:wrong event received\n", __func__);
 	}
 }
 

@@ -785,13 +785,13 @@ PARAMETERS
    pBuffer         [ I ] - Buffer to be parsed
    buffSize        [ I ] - Size of pBuffer
    pTXOk           [ O ] - Number of transmitted packets without errors
-   pRXOk           [ O ] - Number of recieved packets without errors
+   pRXOk           [ O ] - Number of received packets without errors
    pTXErr          [ O ] - Number of transmitted packets with framing errors
-   pRXErr          [ O ] - Number of recieved packets with framing errors
+   pRXErr          [ O ] - Number of received packets with framing errors
    pTXOfl          [ O ] - Number of transmitted packets dropped due to overflow
-   pRXOfl          [ O ] - Number of recieved packets dropped due to overflow
+   pRXOfl          [ O ] - Number of received packets dropped due to overflow
    pTXBytesOk      [ O ] - Number of transmitted bytes without errors
-   pRXBytesOk      [ O ] - Number of recieved bytes without errors
+   pRXBytesOk      [ O ] - Number of received bytes without errors
    pbLinkState     [ 0 ] - Is the link active?
    pbReconfigure   [ 0 ] - Must interface be reconfigured? (reset IP address)
 
